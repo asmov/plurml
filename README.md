@@ -10,6 +10,9 @@ manner. It provides language-specific definitions as well, which dictate how syn
 PlurML provides a common way to refer to primitive types, values, interfaces, and classes along with common patterns for
 how they may be used.
 
+A lexical scanner and parser reads PlurML definition files (.plurml) for data models and interfaces and generates
+source-code written in the desired language. Currently, PlurML supports Rust, Javascript, Java, and Python.
+
 Contributors
 ------------
 * Roy Laurie (roy.laurie@asmov.company)
