@@ -11,7 +11,11 @@ PlurML provides a common way to refer to primitive types, values, interfaces, an
 how they may be used.
 
 A lexical scanner and parser reads PlurML definition files (.plurml) for data models and interfaces and generates
-source-code written in the desired language. Currently, PlurML supports Rust, Javascript, Java, and Python.
+source-code written in the desired language. Conversely, PlurML can parse doctags within source-code and update
+PlurML definition files with any changes. This workflow avoids duplicate work and allows development in multiple
+languages simultaneously.
+
+PlurML intends to support Rust, Javascript, Java, and Python.
 
 Contributors
 ------------
