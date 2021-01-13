@@ -7,7 +7,7 @@ interface plur/concept/iVariable as iVariableConcept:
 /**
  * This is an structure docbloc.
  */
-    method getType
+    method getType:
     /**
      * This is a method docbloc.
      */
@@ -27,7 +27,7 @@ interface plur/concept/iVariable as iVariableConcept:
         /* This
             is a comment. */
 
-    method getName
+    method getName:
     /**
      * This is a method docbloc.
      */
