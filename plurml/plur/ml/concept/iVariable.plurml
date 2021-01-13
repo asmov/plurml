@@ -1,0 +1,35 @@
+/**
+ * This is a file docbloc.
+ */
+import plur/concept/iType as iTypeConcept
+
+interface plur/concept/iVariable as iVariableConcept:
+/**
+ * This is an structure docbloc.
+ */
+    method getType
+    /**
+     * This is a method docbloc.
+     */
+        parameter <bool> explicit default(false)
+        /* This is a comment. */
+        /**
+         * This is a parameter docbloc.
+         */
+        // This is a comment.
+
+        returns <iTypeConcept>
+        // This
+        // is a comment.
+        /**
+         * This is a return value docbloc.
+         */
+        /* This
+            is a comment. */
+
+    method getName
+    /**
+     * This is a method docbloc.
+     */
+        returns <string>
+        /** This is return value docbloc. **/
